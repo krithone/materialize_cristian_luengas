@@ -1,0 +1,87 @@
+body{
+  background-color: #1e88e5;
+  background-attachment: fixed;
+}
+.content{
+  background: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center bottom;
+  background-size: contain;
+}
+.title{
+color: white;
+margin-top: 8%;
+}
+.redes-sociales{
+  width: 70%;
+}
+.redes-sociales2{
+  width: 10%;
+}
+.logo{
+  width: 100%;
+  margin-top: 1.5rem;
+  float: left;
+  margin-bottom: 1.5rem;
+  border: 0.6rem solid #ff8f00;
+  border-radius: 5px;
+}
+.contenedor-barra{
+  margin-top: 1.5rem;
+  margin-left: 0;
+  float: right;
+}
+.blog{
+  color: white;
+}
+.img1{
+  margin-top: 3%;
+  float: left;
+  margin-right: 3%;
+  border-radius: 5px;
+}
+.img2{
+  margin-top: 3%;
+  float: left;
+  margin-left: 25%;
+  width: 50%;
+}
+#publicacion-texto{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: white;
+  height: 4rem;
+  color: black;
+}
+.contenedor-write-publicacion{
+  min-height: 7rem;
+  margin: 5%;
+  margin-left: 0%;
+}
+.publicaciones{
+  margin-top: 5%;
+}
+@media (max-width: 900px) {
+  .img1{
+    border-radius: 5px;
+     width: 100%;
+  }
+  .img2{
+    margin-top: 10%;
+    float: left;
+    width: 20%;
+    margin-left: 40%;
+  }
+  .contenido{
+    margin: 20%;
+    margin-top: 5%;
+  }
+  .chip{
+    margin: 3%;
+    margin-left: 1%;
+  }
+  .logo{
+    margin-left: 0%;
+  }
+}
